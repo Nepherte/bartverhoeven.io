@@ -1,0 +1,10 @@
+# IntelliJ
+.idea/
+
+# Ruby
+vendor/
+.bundle/
+
+# Jekyll
+.jekyll-cache/
+.jekyll-metadata
