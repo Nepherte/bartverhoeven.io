@@ -8,3 +8,6 @@ vendor/
 # Jekyll
 .jekyll-cache/
 .jekyll-metadata
+
+# Build
+target/
