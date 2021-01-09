@@ -148,6 +148,20 @@ p {
             }
         }
     }
+
+    .social-list {
+        .svg-inline--fa {
+            margin-right: 5px;
+            font-size: 18px;
+            vertical-align: middle;
+        }
+        li {
+            margin-bottom: 15px;
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+    }
 }
 
 .main-wrapper {

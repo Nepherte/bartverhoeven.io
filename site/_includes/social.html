@@ -1,0 +1,65 @@
+{% assign social = site.data.social %}
+{% if social %}
+<div class="social-container container-block">
+  <ul class="list-unstyled social-list">
+    <h2 class="container-block-title">
+      {{ social.title }}
+    </h2>
+
+    {% if social.media.telegram %}
+    <li class="telegram"><i class="fab fa-telegram"></i>
+      <a href="https://t.me/{{ social.media.telegram }}" target="_blank">{{ social.media.telegram }}</a>
+    </li>
+    {% endif %}
+
+    {% if social.media.linkedin %}
+    <li class="linkedin"><i class="fab fa-linkedin-in"></i>
+      <a href="https://linkedin.com/in/{{ social.media.linkedin }}" target="_blank">{{ social.media.linkedin }}</a>
+    </li>
+    {% endif %}
+
+    {% if social.media.github %}
+    <li class="github"><i class="fab fa-github"></i>
+      <a href="http://github.com/{{ social.media.github }}" target="_blank">{{ social.media.github }}</a>
+    </li>
+    {% endif %}
+
+    {% if social.media.gitlab %}
+    <li class="gitlab"><i class="fab fa-gitlab"></i>
+      <a href="http://gitlab.com/{{ social.media.gitlab }}" target="_blank">{{ social.media.gitlab }}</a>
+    </li>
+    {% endif %}
+
+    {% if social.media.bitbucket %}
+    <li class="bitbucket"><i class="fab fa-bitbucket"></i>
+      <a href="http://bitbucket.com/{{ social.media.bitbucket }}" target="_blank">{{ social.media.bitbucket }}</a>
+    </li>
+    {% endif %}
+
+    {% if social.media.twitter %}
+    <li class="twitter"><i class="fab fa-twitter"></i>
+      <a href="https://twitter.com/{{ social.media.twitter }}" target="_blank">{{ social.media.twitter }}</a>
+    </li>
+    {% endif %}
+
+    {% if social.media.stack-overflow %}
+    <li class="stack-overflow"><i class="fab fa-stack-overflow"></i>
+      <a href="https://stackoverflow.com/users/{{ social.media.stack-overflow }}" target="_blank">{{ social.media.stack-overflow }}</a>
+    </li>
+    {% endif %}
+
+    {% if social.media.codewars %}
+    <li class="codewars"><i class="fas fa-code"></i>
+      <a href="https://www.codewars.com/users/{{ social.media.codewars }}/completed_solutions" target="_blank">{{ social.media.codewars }}</a>
+    </li>
+    {% endif %}
+
+    {% if social.media.goodreads %}
+    <li class="goodreads-g"><i class="fab fa-goodreads-g"></i>
+      <a href="https://www.goodreads.com/user/show/{{ social.media.goodreads }}" target="_blank">{{ social.media.goodreads }}</a>
+    </li>
+    {% endif %}
+  </ul>
+
+</div><!--//social-->
+{% endif %}

@@ -1,4 +1,4 @@
-#Update all the sections by editing the data.yml file inside _configs folder.
+#Update all the sections by editing the yml files inside the _configs folder.
 
 # Site Settings
 title: My Resume
