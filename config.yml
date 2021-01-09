@@ -14,9 +14,6 @@ destination: ./target
 
 data_dir: _configs
 
-# Tracker
-analytics: UA-83979019-1
-
 # Sass/SCSS
 sass:
   sass_dir: _themes
