@@ -17,16 +17,9 @@ data_dir: _configs
 # Sass/SCSS
 sass:
   sass_dir: _themes
-  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
 
 # Build settings
-compress-site: yes
-
 encoding: "utf-8"
-compress_html: # - http://jch.penibelst.de/
-  clippings: all
-  ignore:
-    envs: development
 
 # Development Settings
 port: 4000
